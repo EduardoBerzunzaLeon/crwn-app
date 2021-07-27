@@ -14,7 +14,7 @@
     margin-bottom: 5px;
   }
 
-  .custom-button {
+  button {
     width: 80%;
     opacity: 0.7;
     position: absolute;
@@ -27,7 +27,7 @@
       opacity: 0.8;
     }
 
-    .custom-button {
+    button {
       opacity: 0.85;
       display: flex;
     }
@@ -55,7 +55,7 @@
   .collection-item {
     width: 40vw;
 
-    .custom-button {
+    button {
       display: block;
       opacity: 0.9;
       min-width: unset;
@@ -67,7 +67,7 @@
         opacity: unset;
       }
 
-      .custom-button {
+      button {
         opacity: unset;
       }
     }
