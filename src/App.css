@@ -3,11 +3,16 @@ body {
   padding: 20px 60px;
 }
 
+@media only screen and (max-width: 800px) {
+  body {
+    padding: 10px;
+  }
+}
+
 a {
   text-decoration: none;
   color: black;
 }
-
 
 * {
   box-sizing: border-box;

@@ -22,9 +22,9 @@
     }
   }
 
-  &.large {
-    height: 380px;
-  }
+  // &.large {
+  //   // height: 380px;
+  // }
 
   &:first-child {
     margin-right: 7.5px;
@@ -64,5 +64,11 @@
       font-weight: lighter;
       font-size: 16px;
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu-item {
+    height: 200px;
   }
 }
